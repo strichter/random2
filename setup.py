@@ -4,7 +4,7 @@ setup (
     name='random2',
     version='1.0.1.dev0',
     author = "PSF",
-    description = "Python 3 compatible Pytohn 2 `random` Module.",
+    description = "Python 3 compatible Python 2 `random` Module.",
     long_description = (
         open('CHANGES.txt').read()
         + '\n\n' +
