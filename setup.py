@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup (
     name='random2',
-    version='1.0.1.dev0',
+    version='1.0.1',
     author = "PSF",
     description = "Python 3 compatible Pytohn 2 `random` Module.",
     long_description = (

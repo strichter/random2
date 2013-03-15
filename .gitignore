@@ -7,5 +7,6 @@ benchmark/*.egg-info
 .tox
 bin
 develop-eggs
+dist
 docs
 parts
