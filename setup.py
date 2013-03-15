@@ -28,6 +28,7 @@ setup (
         'Operating System :: OS Independent'],
     url = 'http://pypi.python.org/pypi/random2',
     package_dir={"": "src"},
+    py_modules=['random2'],
     include_package_data = True,
     test_suite = 'tests.test_suite',
     zip_safe = True,
