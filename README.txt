@@ -12,4 +12,4 @@ several high-level functions such as ``randint()`` and ``choice()`` use
 
 In my testing code I heavily rely on stable random generator results and it
 makes porting code to Python 3 a lot harder, if all those tests have to be
-adjusted. This package fixes that.
+adjusted. This package fixes that..
