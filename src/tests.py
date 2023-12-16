@@ -592,12 +592,13 @@ class TestModule(unittest.TestCase):
 #        print(counts)
 
 def test_suite():
-    return unittest.TestSuite((
-            unittest.makeSuite(WichmannHill_TestBasicOps),
-            unittest.makeSuite(MersenneTwister_TestBasicOps),
-            unittest.makeSuite(TestDistributions),
-            unittest.makeSuite(TestModule)
-            ))
+    suite = unittest.TestSuite()
+    suite.addTest(unittest.defaultTestLoader.loadTestsFromTestCase(WichmannHill_TestBasicOps))
+    suite.addTest(unittest.defaultTestLoader.loadTestsFromTestCase(MersenneTwister_TestBasicOps))
+    suite.addTest(unittest.defaultTestLoader.loadTestsFromTestCase(TestDistributions))
+    suite.addTest(unittest.defaultTestLoader.loadTestsFromTestCase(TestModule))
+    return suite
+
 
 if __name__ == "__main__":
     test_main(verbose=True)
