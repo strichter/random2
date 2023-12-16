@@ -448,7 +448,8 @@ class MersenneTwister_TestBasicOps(TestBasicOps):
         self.assertRaises(TypeError, self.gen.getrandbits)
         self.assertRaises(TypeError, self.gen.getrandbits, 'a')
         self.assertRaises(TypeError, self.gen.getrandbits, 1, 2)
-        self.assertRaises(ValueError, self.gen.getrandbits, 0)
+        if sys.version_info < (3, 9):
+            self.assertRaises(ValueError, self.gen.getrandbits, 0)
         self.assertRaises(ValueError, self.gen.getrandbits, -1)
 
     def test_randbelow_logic(self, _log=log, int=int):
