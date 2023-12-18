@@ -5,9 +5,6 @@ Random 2
 .. image:: https://github.com/strichter/random2/actions/workflows/test.yml/badge.svg
    :target: https://github.com/strichter/random2/actions
 
-.. image:: https://coveralls.io/repos/github/strichter/random2/badge.svg?branch=master
-   :target: https://coveralls.io/github/strichter/random2?branch=master
-
 .. image:: https://img.shields.io/pypi/v/random2.svg
    :target: https://pypi.python.org/pypi/random2
 
