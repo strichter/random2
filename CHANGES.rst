@@ -2,7 +2,7 @@
 CHANGES
 =======
 
-1.0.3 (unreleased)
+1.0.2 (2023-12-18)
 ------------------
 
 - Change support to Python 3.10, 3.11, 3.12, and 3.13 only.
