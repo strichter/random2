@@ -601,4 +601,6 @@ def test_suite():
 
 
 if __name__ == "__main__":
-    test_main(verbose=True)
+    runner = unittest.TextTestRunner(verbosity=3)
+    result = runner.run(test_suite())
+    #test_main(verbose=True)
