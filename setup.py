@@ -6,9 +6,9 @@ setup (
     author = "PSF",
     description = "Python 3 compatible Python 2 `random` Module.",
     long_description = (
-        open('CHANGES.txt').read()
+        open('CHANGES.rst').read()
         + '\n\n' +
-        open('README.txt').read()
+        open('README.rst').read()
         ),
     license = "Python 2.1.1",
     keywords = "roman",
