@@ -2,6 +2,18 @@
 Random 2
 ========
 
+.. image:: https://github.com/strichter/random2/actions/workflows/test.yml/badge.svg
+   :target: https://github.com/strichter/random2/actions
+
+.. image:: https://coveralls.io/repos/github/strichter/random2/badge.svg?branch=master
+   :target: https://coveralls.io/github/strichter/random2?branch=master
+
+.. image:: https://img.shields.io/pypi/v/random2.svg
+   :target: https://pypi.python.org/pypi/random2
+
+.. image:: https://img.shields.io/pypi/pyversions/random2.svg
+   :target: https://pypi.python.org/pypi/random2/
+
 This package provides a Python 3 ported version of Python 2.7's ``random``
 module. It has also been back-ported to work in Python 2.6.
 
